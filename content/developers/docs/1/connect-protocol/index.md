@@ -20,7 +20,7 @@ The connection process goes as follows:
 
 <center><img src="/images/bob-connect.png" alt="bob-connect"></center>
 
-The [PacketConnect](#packetconnect) is the **first** packet the server expects. If any other packet is send **before** the [PacketConnect](#packetconnect) then
+The [PacketConnect](#packetconnect) is the **first** packet the server expects. If any other packet is sent **before** the [PacketConnect](#packetconnect) then
 the server will send a [PacketDisconnect](#packetdisconnect) with message "Invalid Packet" and then close the connection.
 
 In case the client ID you are trying to connect with is already connected to the server, the client will be disconnected with message "Already connected!". 

@@ -1,0 +1,48 @@
+baseurl = "https://chatr.captainbern.io/"
+languageCode = "en-us"
+title = "Chatr"
+theme = "hugo-material-docs"
+canonifyurls = true
+
+[params]
+	# General information
+	description = "Chatr website"
+	copyright = "Released under the MIT license"
+
+	# Repository
+
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue"
+    	accent  = "light-blue"
+
+	[params.font]
+		text = "Roboto"
+	  	code = "Roboto Mono"
+
+[[menu.main]]
+	name   = "Chatr"
+	url    = "developers/"
+	weight = 0
+
+  [[menu.main]]
+	name   = "Rest API"
+	url    = "developers/docs/1/rest/"
+	weight = 10
+
+  [[menu.main]]
+	name   = "Connect Protocol"
+	url    = "developers/docs/1/connect-protocol/"
+	weight = 20
